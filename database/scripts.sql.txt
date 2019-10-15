@@ -1,0 +1,5 @@
+create table tbluser(useid numeric(6), firstname varchar(50), lastname varchar(50),email varchar(50), phoneno varchar(15), address varchar(100), city varchar(100), state varchar(50),country varchar(50))
+
+create table tblsurvey(surveyid numeric(6), userid numeric(6), eventname varchar(50), para1 varchar(50), para2 varchar(100), para3 varchar(100), para4 varchar(100), para5 varchar(100), para6 varchar(100), updateddate datetime)
+
+create table tbllogin (userid numeric(6),logindate datetime, location varchar(100))
