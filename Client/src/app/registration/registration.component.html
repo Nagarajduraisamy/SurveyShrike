@@ -1,0 +1,48 @@
+<h2>Registration </h2>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+
+    <div>
+      <label for="name">
+        First Name
+      </label>
+      <input id="name" style="width: 300px;" type="text" formControlName="name">
+    </div>
+  
+    <div>
+      <label for="event">
+        Last Name
+      </label>
+      <input id="training" style="width: 500px;" type="text" formControlName="event">
+    </div>
+    <div>
+      <label for="event">
+        Email Id
+        
+      </label>
+      <input id="training" style="width: 500px;" type="text" formControlName="event">
+    </div>
+    
+    <div>
+      <label for="event">
+        Phone No
+        
+      </label>
+
+      <input id="training" style="width: 500px;" type="text" formControlName="event">
+    </div>
+    
+    <div>
+      <label for="event">
+        Address
+      </label>
+      <input id="training" style="width: 1000px;" type="text" formControlName="event">
+    </div>
+    <button class="button" type="submit">Submit</button>
+  
+  </form>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
